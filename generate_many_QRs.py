@@ -9,3 +9,5 @@ for i in range(len(data)):
     url = pyqrcode.create(data[i])
     png_name = str(i) + ".text.png"
     url.png(png_name, scale = 8)
+
+
