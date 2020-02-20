@@ -13,11 +13,11 @@ url.svg("1.1.hope.svg", scale = 8)
 
 ## Create PNG files 
 # chapter 1
-s = "http://hope.sulabatsu.com/2017/12/07/capitulo-1-el-futuro/"
+s = "Capitulo 1: El futuro \n http://hope.sulabatsu.com/2017/12/07/capitulo-1-el-futuro/"
 url = pyqrcode.create(s) 
 url.png("1.hope.1.png", scale = 8)
 # chapter 2
-s = "http://hope.sulabatsu.com/2017/12/08/capitulo-2-viajera-del-tiempo/"
+s = "Capitulo 2: Viajera del tiempo \n http://hope.sulabatsu.com/2017/12/08/capitulo-2-viajera-del-tiempo/"
 url = pyqrcode.create(s)
 url.png("2.hope.2.png", scale = 8)
 
